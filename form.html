@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>My anime List</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="myscript.js" defer></script>
+        <script src="formjs.js" defer></script>
+    </head>
+    <body background="image1.jpg" style="background-size: cover;">
+      <nav class="navbar">
+        <div class="Amshu">Amshu's 10</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="anime.html">Anime list</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="#contacts" id="contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class ="main">
+        <div class= "form" style="overflow-x:auto;">
+            <b><h1>Registration Form:</h1></b>
+            <form name="myform"  method="post"  onsubmit="return myFunction()">
+                <table>		
+                    <tr>			
+                        <td>				
+                            First Name :			
+                        </td>			
+                        <td>				
+                            <input type=”text” First Name="">			
+                        </td>		
+                    </tr>
+                    <tr>			
+                        <td>				
+                            Middle Name :			
+                        </td>			
+                        <td>				
+                            <input type=”text” Middle Name=””>			
+                        </td>		
+                    </tr>
+                    <tr>			
+                        <td>				
+                            Last Name :			
+                        </td>			
+                        <td>				
+                            <input type=”text” Last Name=””>			
+                        </td>		
+                    </tr>
+                    <tr>
+                        <td>				
+                            Email :			
+                        </td>			
+                        <td>	
+                            <input type="Email" name="Email" value="">
+                            <span id="Message"> </span>				
+                        </td>		
+                    </tr>
+                    <tr>
+                        <td>				
+                        Gender :			
+                        </td>			
+                        <td>				
+                            <select>
+                                <option value="1">Female</option>
+                                <option value="2">Male</option>
+                                <option value="3">Others</option>
+                            </select>
+                        </td>		
+                </tr>	
+                <tr>
+                    <td>				
+                    Phone Num :			
+                    </td>			
+                    <td>				
+                        <input type="text" phone="Phone num" size="10" value="">
+                    </td>		
+            </tr>	
+            </table>
+                <input type="submit" id="go" value="Submit" style="font-size: 20px; height: 40px; width: 98%; border:solid black; padding:5px 5px; border-radius: 12px;">
+            </form>
+        </div>
+    </div>
+      </div>
+      
+    </body>
+    <footer>
+      <div class="main-content" id="contacts">
+        <div class="left box">
+          <h3>Social Media Links<br></h3>
+            <div class="social">
+              <a href="https://www.facebook.com/amshu.upreti">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/amshu-upreti-7a95171a9">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a href="https://github.com/amshere">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a href="https://www.instagram.com/amupreti/">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </div><br><br>
+            <p>Created Amshu Upreti. © 2020</p>
+        </div>
+        <div class="center box">
+          <h3>Address</h3>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Nilopul, Kapan</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">amshu.upreti@deerwalk.edu.np</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">amshu.upreti1@gmail.com</span>
+            </div>
+        </div>
+        </div>
+
+        <div class="right box">
+          <h3>Contact us</h3>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+</html>
