@@ -164,6 +164,7 @@ body{
     .wrapper nav .items{
       flex-wrap: wrap;
       justify-content: center;
+      padding-top: 20px;
     }
     nav .items span{
       margin: 5px;
@@ -297,9 +298,80 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .container4{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
   .card{
     max-width: 700px;
     margin: 20px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 530px) {
+  
+  .container1{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container2{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container3{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container4{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card{
+    max-width: 300px;
+    margin: 20px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  
+  .container1{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container2{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container3{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container4{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card{
+    max-width: 200px;
+    margin: 20px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:15px;
+  }
+  .card .top-text .name{
+    font-size: 15px;
+    font-weight:bold;
+    color: #202020;
+  }
+  .card .top-text p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #e74c3c;
+    line-height: 20px;
   }
 }
 
