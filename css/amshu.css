@@ -82,13 +82,13 @@ body{
 
 @media (max-width: 800px) {
     .navbar {
-        width:109%;
+        
         flex-direction: column;
         align-items: flex-start;
     }
 
     .toggle-button {
-        margin-right: 20px;
+        
         display: flex;
     }
 
