@@ -346,6 +346,13 @@ footer{
 .social a i:hover{
     background: #555;
 }
+.copyright{
+    width:100%;
+    background: #131212;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
 @media (max-width: 800px) {
     footer {
         flex-direction: column;
@@ -354,6 +361,9 @@ footer{
     .main-content{
         flex-direction: column;
     }
+    .copyright{
+        padding: 8px 40px;
+    }	
 }/*
     .toggle-button {
         display: flex;
